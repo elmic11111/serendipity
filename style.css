@@ -1,0 +1,229 @@
+/* Page General */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #CC7F5C;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	color: #8EA2AD;
+	background: #0C1114 url(images/img01.jpg) no-repeat top center;
+	line-height: 1.75em;
+	font-size: 14pt;
+}
+
+body,input {
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+strong {
+	color: #CEE2ED;
+}
+
+h1,h2,h3,h4 {
+	padding: 5px;
+	margin: 5px;
+	font-weight: normal;
+	text-transform: lowercase;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h2,h3,h4 {
+	color: #FFFFFF;
+	margin-bottom: 1em;
+	font-family: Oswald, sans-serif;
+	text-shadow: 0px 1px 1px #0C1114;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+img.alignleft {
+	margin: 5px 20px 20px 0;
+	float: left;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+ul h4 {
+	margin-bottom: 0.35em;
+}
+
+ol {
+	margin: 0 0 0 15px;
+	padding: 0 15px 0 35px;
+}
+
+/* 
+CSS Specfic 
+*/
+
+
+#wrapper {
+	color: #FFFFFF;
+	margin: 0 auto;
+/*	width: 980px;
+	margin: 0px auto; */
+	position: relative;
+}
+
+#header {
+	/* border-top: solid 1px #B36643; */
+	border-bottom: solid 1px #B36643;
+	padding: 10px;
+	height: 4em;
+	margin: 0 auto;
+	background: #090C0E;
+	color: #FFFFFF;
+}
+
+
+/* Logo End Sections */
+#logo {
+	margin: 0;
+	padding: 10px;
+}
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#logo h1 {
+	font-size: 3.5em;
+	font-family: Oswald, sans-serif;
+	text-shadow: 0px 2px 2px #0C1114;
+	margin: 0 0 0.25em 0;
+}
+
+#logo h2 {
+
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	font-size: 1.0em;
+	color: #8EA2AD;
+
+}
+
+/* Logo End Sections */
+
+    .wrapper{position:relative;}
+    .right,.left{width:50%; position:absolute;}
+    .right{right:0;}
+    .left{left:0;}
+
+/* Menu Sections */
+#menu {
+	font-family: Oswald, sans-serif;
+	position: absolute;
+	background: #BD704D url(images/img02.gif) repeat-x top left;
+	right: 40px;
+	line-height: 60px;
+	border-top: solid 1px #F9AC89;
+	top: 10px;
+	height: 4em;
+	border-bottom: solid 1px #B36643;
+}
+
+#menu a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 1.25em;
+	text-shadow: 0px 1px 1px #854022;
+}
+
+#menu ul {
+	padding: 0 20px 0 20px;
+	list-style: none;
+}
+
+#menu ul li {
+	display: inline;
+	padding: 0 15px 0 15px;
+	cursor: pointer;
+}
+/* End of Menu */
+
+
+/* Content Section */
+
+.content {
+	width: 980px;
+	margin: 0 auto;
+	display: none;
+}
+
+/* Content End Section */
+/* News Styles */
+.newstitle {
+	border-bottom: solid 1px #B36643;
+	display: block;
+}
+
+/* News Styles */
+
+
+.noliststyle {
+	list-style: none;
+}
+
+.toPopup {
+	background: #000; 
+	border: solid 1px #F9AC89;
+	margin: 0 auto;
+	position: relative;
+    border-radius: 1px 1px 1px 1px;
+    display: none; 
+/*    width: 800px; */
+    z-index: 2;
+    padding: 10px;
+/*    overflow-y:scroll;
+    height:300px;*/
+}
+div#popup_content {
+    margin: 4px 7px;
+    /* remove this comment if you want scroll bar
+    overflow-y:scroll;
+    height:200px
+    */
+}
+
+/* News Styles End Section */
+
+
+.align-right { float:right; margin: 0 0 15px 15px; }
+.align-left { float:left; margin: 0 15px 15px 0; }
+.frame { padding: 5px; border: 1px solid #aaa; }
