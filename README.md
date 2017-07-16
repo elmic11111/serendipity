@@ -1,2 +1,2 @@
-# space-terminal
-Basic Space Terminal
+# serendipity
+This is a space terminal system for an iLarp
